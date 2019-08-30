@@ -21,7 +21,7 @@ var (
 )
 
 func main() {
-	rawFlag := flag.Bool("raw", false, "raw output (can pipe to `ssh-keygen -L`)")
+	rawFlag := flag.Bool("raw", false, "raw output (can pipe to 'ssh-keygen -L')")
 	flag.Parse()
 
 	cc := ssh.ClientConfig{
