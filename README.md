@@ -5,6 +5,9 @@ This utility makes it easy to fetch the SSH Certificate from a remote host
 without fully connecting. It can output JSON (default) or the ssh disk format
 expected by `ssh-keygen -L`.
 
+This basically works the same as `ssh-keyscan -c`, but I wanted to see how to
+implement this in Go and also have JSON output.
+
 Usage
 -----
 
